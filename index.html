@@ -117,10 +117,10 @@
              Games, virtual environments and worlds are designed to be immersive. Through the use of roleplay [13] in foundation models, interaction with and between GAME-powered generative agents result in novel, authentic, and completely unscripted conversation. GAME-powered agents however aren’t just static conversational chatbots or NPCs, they have the full ability to function and act in the environment as any other player or character. With chain-of-thought based prompting methods for planning and reasoning along with tool-use, our agents can plan, act and achieve goals which influence and affect the world. All of these methods are also brought together through the memory modules in GAME, which ensure that agents recall and consider past events, observations and conversations which all influence an agent's thoughts and actions.
             </p>
           </div>
-          <br><br>
           <div class=content has-text-centred>
             <img src="static/images/game-framework.png" alt="GAME Overview" class="center" />
           </div>
+          <br><br>
         </div>
       </div>
     </div>
@@ -161,7 +161,7 @@
           <h4 class="title is-5">Autonomy</h4>
           <div class="content has-text-justified">
              <p>
-              Ignacio’s personality, along with several other variables such as the game state, his previous actions, and long term memory, is fed into the high level task planner. This generates a high-level task for him, which is then fed into the action planner and plan executor which is used to create granular actions for Ignacio to take in the game. He then receives in-game feedback which is used to update his high level plan.
+              Ignacio’s personality, along with several other variables such as the game state, his previous actions, and long term memory, is fed into the high level task planner. This generates a high-level task for him, which is then fed into the action planner and executor which is used to create a seqeunce of granular actions that are grounded and executable in the environment for Ignacio to take in the game. He also receives in-game feedback in the form of observations, rewards, successes and more which is used to inform and update his plans and following actions.
             </p>
           </div>
           <div class=content has-text-centred>
@@ -169,7 +169,7 @@
           </div>
           <div class="content has-text-justified">
              <p>
-              Having an autonomous character that has a goal and strategises how to achieve it in an agentic manner greatly enhances NPCs in games today. Where a standard bot only has fixed paths and options, an autonomous agent is able to take input from its environment and the player’s actions and develop its thought process independently. This creates more immersive experiences as the agent becomes more unpredictable and humanlike.
+              Having an autonomous character that has goals and strategises how to achieve these in an agentic manner greatly enhances NPCs in games today. Where a standard bot only has fixed paths and options, an autonomous agent is able to take input from its environment, other agents and surrounding player’s to independently develop plans and its actions in the world. This creates more immersive experiences as the agent becomes more unpredictable and humanlike.
             </p>
           </div>
           <h4 class="title is-5">Environment Interaction</h4>
